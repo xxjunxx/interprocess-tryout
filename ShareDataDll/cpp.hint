@@ -1,0 +1,2 @@
+#define SHAREDATADLL_API __declspec(dllexport)
+#define SHAREDATADLL_API __declspec(dllimport)

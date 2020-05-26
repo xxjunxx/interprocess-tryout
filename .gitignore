@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ShareAppOne/x64/Debug
+/ShareDataDLL/x64/Debug
+/ShareAppTwo/x64/Debug
+/x64/Debug
+.vs/
