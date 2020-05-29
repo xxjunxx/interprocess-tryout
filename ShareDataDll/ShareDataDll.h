@@ -1,21 +1,14 @@
 #ifdef SHAREDATADLL_EXPORTS
 #define SHAREDATADLL_API __declspec(dllexport)
+#include <boost/interprocess/ipc/message_queue.hpp>
 #else
 #define SHAREDATADLL_API __declspec(dllimport)
 #endif
 
-#pragma data_seg ("Shared")
-SHAREDATADLL_API int shareI = 0;
-#pragma data_seg()
-#pragma comment(linker, "/Section:Shared,RWS")
+#include <iostream>
 
-// This class is exported from the dll
-class SHAREDATADLL_API CShareDataDll {
-public:
-	CShareDataDll(void);
-	// TODO: add your methods here.
-};
+using namespace boost::interprocess;
 
-extern SHAREDATADLL_API int nShareDataDll;
+SHAREDATADLL_API bool InitMessageQueue();
 
-SHAREDATADLL_API int fnShareDataDll(void);
+bool SendMessage(int message); // not sure if declaration is needed
