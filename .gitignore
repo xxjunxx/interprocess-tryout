@@ -2,8 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/ShareAppOne/x64/Debug
-/ShareDataDLL/x64/Debug
-/ShareAppTwo/x64/Debug
-/x64/Debug
-.vs/
+SharedMemoryDllForProlog/ShareAppOne/x64/Debug
+SharedMemoryDllForProlog/ShareDataDLL/x64/Debug
+SharedMemoryDllForProlog/ShareAppTwo/x64/Debug
+SharedMemoryDllForProlog/x64/Debug
+SharedMemoryDllForProlog/.vs/
