@@ -7,3 +7,6 @@ SharedMemoryDllForProlog/ShareDataDLL/x64/Debug
 SharedMemoryDllForProlog/ShareAppTwo/x64/Debug
 SharedMemoryDllForProlog/x64/Debug
 SharedMemoryDllForProlog/.vs/
+IPCLib/x64
+IPCLib/.vs
+IPCLib/IPCLib/x64
