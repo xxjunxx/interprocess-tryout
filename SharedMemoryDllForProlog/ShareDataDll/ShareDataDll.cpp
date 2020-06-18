@@ -14,7 +14,7 @@ SHAREDATADLL_API bool InitMessageQueue()
         message_queue mq
         (create_only               //only create
             , "message_queue"           //name
-            , 100                       //max message number
+            , 100                        //max message number
             , sizeof(int)               //max message size
         );
     }
